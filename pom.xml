@@ -7,7 +7,7 @@
     <artifactId>worker</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>myBot</name>
+    <name>workerBot</name>
 
     <dependencies>
         <!--&lt;!&ndash;  WICKET DEPENDENCIES &ndash;&gt;-->
@@ -129,7 +129,7 @@
                     <programs>
                         <program>
                             <mainClass>com.home.server.TelegramBot</mainClass>
-                            <name>worker</name>
+                            <name>workerBot</name>
                         </program>
                     </programs>
                 </configuration>
