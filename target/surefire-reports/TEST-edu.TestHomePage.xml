@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="edu.TestHomePage" time="0.568" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="edu.TestHomePage" time="0.457" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.1.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9+181"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\testBot1"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\testBot1\MyTelegramBot"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\testBot1"/>
+    <property name="user.dir" value="D:\testBot1\MyTelegramBot"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="9+181"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.TestHomePage" name="testRenderMyPage" time="0.568"/>
+  <testcase classname="edu.TestHomePage" name="testRenderMyPage" time="0.457"/>
 </testsuite>
