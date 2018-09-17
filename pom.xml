@@ -128,7 +128,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.home.server.TelegramBot</mainClass>
+                            <mainClass>edu.Appl</mainClass>
                             <name>workerBot</name>
                         </program>
                     </programs>
