@@ -12,23 +12,16 @@ import java.util.List;
 
 public class Bot extends TelegramLongPollingBot {
 
-    private static final String LOGTAG = "https://t.me/vjqCH";
 
 
-    /**
-     * Метод для приема сообщений.
-     *
-     * @param update Содержит сообщение от пользователя.
-     */
     @Override
     public void onUpdateReceived(Update update) {
         if (update.hasMessage ( ) && update.getMessage ( ).hasText ( )) {
-            // Set variables
             String message_text = update.getMessage ( ).getText ( );
             long chat_id = update.getMessage ( ).getChatId ( );
             SendMessage message;
 
-            if (update.getMessage ( ).getText ( ).equals ("/start")) {
+            if (message_text.equals ("/start") || message_text.equals ("/")) {
                 message = new SendMessage ( )
                         .setChatId (chat_id)
                         .setText (message_text);
