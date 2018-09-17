@@ -42,22 +42,22 @@ public class Bot extends TelegramLongPollingBot {
             } else if (message_text.equals ("About us")) {
                 message = new SendMessage ( )
                         .setChatId (chat_id)
-                        .setText ("About Us\n\n" + "https://career.softserveinc.com/en-us/technology");
+                        .setText ("url");
                 send (message);
             } else if (message_text.equals ("Courses Schedule")) {
                 message = new SendMessage ( )
                         .setChatId (chat_id)
-                        .setText ("Courses Schedule\n\n" + "https://career.softserveinc.com/en-us/schedule");
+                        .setText ("url");
                 send (message);
             } else if (message_text.equals ("Course Navigator")) {
                 message = new SendMessage ( )
                         .setChatId (chat_id)
-                        .setText ("Course Navigator\n\n" + "https://career.softserveinc.com/en-us/course-navigator");
+                        .setText ("url");
                 send (message);
             } else if (message_text.equals ("Schedule for Students")) {
                 message = new SendMessage ( )
                         .setChatId (chat_id)
-                        .setText ("Schedule for Students\n\n" + "https://softserve.academy/pluginfile.php/50888/mod_resource/content/272/lviv/index.htm");
+                        .setText ("url");
                 send (message);
             }
         }
