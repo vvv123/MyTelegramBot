@@ -132,16 +132,6 @@
                             <name>workerBot</name>
                         </program>
                     </programs>
-                    <showConsoleWindow>true</showConsoleWindow>
-                    <configurationDirectory>conf</configurationDirectory>
-                    <copyConfigurationDirectory>true</copyConfigurationDirectory>
-                    <binFileExtensions>
-                        <unix>.sh</unix>
-                    </binFileExtensions>
-                    <platforms>
-                        <platform>unix</platform>
-                        <platform>windows</platform>
-                    </platforms>
                 </configuration>
                 <executions>
                     <execution>
